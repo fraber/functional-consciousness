@@ -1,7 +1,7 @@
 # open-consciousness
 
-This repo contains supporting material for a paper submitted to AGI-2026
-called 
+This repo contains support material and detailed analysis
+for a paper submitted to AGI-2026 called 
 "A Proxy Metric for Functional Consciousness Using Self-Models."
 
 # Abstract
@@ -38,18 +38,15 @@ Content) and $P$ (Reasoning Power).
 
 ## Functional Self-Model Analysis (FSMA)
 
-This is the second type of analysis based on the same
-math as FCS, but more looking for the presence of
+This repo contains a number of files *-FSMA.pdf.
+This fieles contain the second type of analysis based on
+the same math as FCS, but more looking for the presence of
 self-models rather than their FCS.
 
 The resulting "cognitive shape" radar diagrams are well
 suitable to intuitively see what an agent focuses on.
 
-
-
-
-
-## Special Files
+# Special Files
 
 ### `self-models.md` / `self-models.pdf`
 A structured list of identified self-models, organized by area.  
