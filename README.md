@@ -33,33 +33,37 @@ An abductive methodology for inferring the minimal set of self-models required t
 
 ## Evaluated Systems
 
-Detailed evaluation reports for various systems are provided below. Each report calculates the FCS based on architectural specifications (white-box) or behavioral inference (black-box).
+Detailed evaluation reports for various systems are organized into the following directories:
+- [**fcs/**](./fcs/): Individual Functional Consciousness Score (FCS) reports.
+- [**fsma/**](./fsma/): Functional Self-Model Analysis (FSMA) reports.
 
 | System | Domain | FCS Report (PDF) | FSMA Analysis (PDF) |
 | :--- | :--- | :--- | :--- |
-| **Human** | Working Memory | [human-working-mem-FCS.pdf](./human-working-mem-FCS.pdf) | - |
-| **Human** | Kinematic | [human-body-kinematic-FCS.pdf](./human-body-kinematic-FCS.pdf) | - |
-| **Generative Agents** | Episodic | [generative-agents-FCS.pdf](./generative-agents-FCS.pdf) | [generative-agents-FSMA.pdf](./generative-agents-FSMA.pdf) |
-| **Waymo L4** | Kinematic | [waymo-FCS.pdf](./waymo-FCS.pdf) | [waymo-FSMA.pdf](./waymo-FSMA.pdf) |
-| **ACT-R** | Cognitive | [ACTR-FCS.pdf](./ACTR-FCS.pdf) | [ACTR-FSMA.pdf](./ACTR-FSMA.pdf) |
-| **LIDA** | Cognitive | [LIDA-FCS.pdf](./LIDA-FCS.pdf) | [LIDA-FSMA.pdf](./LIDA-FSMA.pdf) |
-| **Roomba** | Kinematic | [roomba-FCS.pdf](./roomba-FCS.pdf) | - |
-| **Stateless LLM** | - | [stateless-LLM-FCS.pdf](./stateless-LLM-FCS.pdf) | - |
-| **Map** | Spatial | [map-FCS.pdf](./map-FCS.pdf) | - |
-| **OpenCog** | - | [opencog_fci_analysis.pdf](./opencog_fci_analysis.pdf) | - |
+| **Human** | Working Memory | [human-working-mem-FCS.pdf](./fcs/human-working-mem-FCS.pdf) | - |
+| **Human** | Kinematic | [human-body-kinematic-FCS.pdf](./fcs/human-body-kinematic-FCS.pdf) | - |
+| **Generative Agents** | Episodic | [generative-agents-FCS.pdf](./fcs/generative-agents-FCS.pdf) | [generative-agents-FSMA.pdf](./fsma/generative-agents-FSMA.pdf) |
+| **Waymo L4** | Kinematic | [waymo-FCS.pdf](./fcs/waymo-FCS.pdf) | [waymo-FSMA.pdf](./fsma/waymo-FSMA.pdf) |
+| **ACT-R** | Cognitive | [ACTR-FCS.pdf](./fcs/ACTR-FCS.pdf) | [ACTR-FSMA.pdf](./fsma/ACTR-FSMA.pdf) |
+| **LIDA** | Cognitive | [LIDA-FCS.pdf](./fcs/LIDA-FCS.pdf) | [LIDA-FSMA.pdf](./fsma/LIDA-FSMA.pdf) |
+| **Roomba** | Kinematic | [roomba-FCS.pdf](./fcs/roomba-FCS.pdf) | - |
+| **Stateless LLM** | - | [stateless-LLM-FCS.pdf](./fcs/stateless-LLM-FCS.pdf) | - |
+| **Map** | Spatial | [map-FCS.pdf](./fcs/map-FCS.pdf) | - |
+| **OpenCog** | - | [opencog_fci_analysis.pdf](./fcs/opencog_fci_analysis.pdf) | - |
 
 ---
 
 ## Supplemental Material
 
+Located in the [**supplemental/**](./supplemental/) directory.
+
 ### Self-Model Catalog
 A structured catalog of 46 self-models across ten functional areas identified during our research.
-- [Self-Model Catalog (CSV)](./self-models.csv)
-- [Self-Model Catalog (PDF)](./self-models.pdf)
+- [Self-Model Catalog (CSV)](./supplemental/self-models.csv)
+- [Self-Model Catalog (PDF)](./supplemental/self-models.pdf)
 
 ### Annotated Literature
 An annotated version of Virginia Woolf’s 1917 short story *“The Mark on the Wall,”* highlighting the occurrences and types of self-models identified through FSMA.
-- [The Mark on the Wall (Annotated PDF)](./The-Mark-On-The-Wall-Virginia-Woolf.annotated.pdf)
+- [The Mark on the Wall (Annotated PDF)](./supplemental/The-Mark-On-The-Wall-Virginia-Woolf.annotated.pdf)
 
 ---
 
